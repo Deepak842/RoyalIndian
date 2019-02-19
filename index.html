@@ -14,7 +14,22 @@
     <link rel="stylesheet" href="stylesheet/style.css">
     <link rel="stylesheet" href="stylesheet/navbar.css">
     <link rel="stylesheet" href="stylesheet/footer.css">
-
+  
+    
+<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB8UCnq35XphibYlFfsR4Iv7tTu8q_E5YI",
+    authDomain: "royalindianrestaurant-83649.firebaseapp.com",
+    databaseURL: "https://royalindianrestaurant-83649.firebaseio.com",
+    projectId: "royalindianrestaurant-83649",
+    storageBucket: "",
+    messagingSenderId: "577329455884"
+  };
+  firebase.initializeApp(config);
+</script>
+    
 </head>
 
 <body>
@@ -76,7 +91,7 @@
                     <!--                    <p>Come visit us for one of our awesome meals!</p>-->
                     <img src="images/heart.png" alt="" class="exl_right_logo">
                     <p>Royal’s biryani, for instance, is made without the customary Aloo that you'll find in other Kolkata restaurants. And this is the way the Lucknow Nawabs liked it.</p>
-                    <a href="about.html" class="read_more read_more_right">Read more</a>
+                    <a href="speciality1B.html" class="read_more read_more_right">Read more</a>
                 </div>
             </div>
 
@@ -104,7 +119,7 @@
                     <!--                    <p>Come visit us for one of our awesome meals!</p>-->
                     <img src="images/heart.png" alt="" class="exl_right_logo">
                     <p>The speciality of the house is the Royal mutton chap. Beaten pieces of meat are marinated in their own special spices and then shallow fried in oil on an iron tawa.</p>
-                    <a href="about.html" class="read_more read_more_right">Read more</a>
+                    <a href="speciality2C.html" class="read_more read_more_right">Read more</a>
                 </div>
             </div>
         </div>
@@ -139,7 +154,7 @@
         <div class="row Dmenurow">
 
             <div class="col-md-12 d-flex justify-content-center align-items-center">
-                <div class="Dmenu text-center">See menu</div>
+                <a href="menu.html" class="Dmenu_link"><div class="Dmenu text-center">See menu</div></a>
             </div>
 
         </div>

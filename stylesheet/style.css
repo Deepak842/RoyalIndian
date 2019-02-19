@@ -125,10 +125,9 @@ body {
     font-family: Gabriola;
     color: #3d1c15;
     border: 1px solid #3d1c15;
-/*
-    margin-top: 20px;
-    margin-bottom: 20px;
-*/
+}
+.read_more:hover {
+    color: #3d1c15;
 }
 
 /*Home-Page3-End*/
@@ -194,7 +193,9 @@ body {
     width: 128px;
     height: 40px;
     font-family: Gabriola;
-
+}
+.Dmenu_link:hover {
+    color: #3d1c15;
 }
 
 /*Home-page4-End*/
