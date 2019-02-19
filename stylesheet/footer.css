@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Roman;
+    src: url(../fonts/Times-New-Roman.ttf);
+}
+/*Footer*/
+.Dfooter {
+    background-color: rgba(25, 5, 1, 0.9);
+    height: auto;
+}
+
+.bottom_content p {
+    font-family: Gabriola;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    margin: 0px;
+}
+
+/*Footer-End*/
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to Royal Indian Hotel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootsratp-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--MY CSS-->
+    <link rel="stylesheet" href="stylesheet/navbar.css">
+    <link rel="stylesheet" href="stylesheet/footer.css">
+    <link rel="stylesheet" href="stylesheet/event.css">
+    <link rel="stylesheet" href="stylesheet/common.css">
+    
+</head>
+
+<body>
+    <!--                            Navbar-->
+     <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navbar_color">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler  navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav align-items-center justify-content-around">
+                    <a class="nav-item nav-link" href="about.html">About
+                        
+                    </a>
+                    <a class="nav-item nav-link nav_item_drop" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Speciality
+                    <div class="dropdown-menu">
+                            <a class="dropdown-item" href="speciality1B.html" id="dropdown_item">Royal Biryani</a>
+                            <a class="dropdown-item" href="speciality2C.html" id="dropdown_item">Royal Chaap</a>
+                        </div>
+                    </a>
+                    <a class="nav-item nav-link" href="menu.html">Menu</a>
+                    <a class="nav-item nav-link" href="index.html" id="logoimage"><span id="logo_heading">Royal Indian Hotel</span></a>
+                    <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+                    <a class="nav-item nav-link" href="event.html">Events</a>
+                    <a class="nav-item nav-link" href="contactus.html" tabindex="-1" aria-disabled="true">Contacts</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--                  Navbar-End-->
+
+    <section id="event_container1">
+        <div class="container-fluid event_container1 d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center royal_head_roman">Royal Event</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="event_container2">
+     <div class="container event_container2 pt-lg-5 pb-lg-5 p-1">
+        <div class="row d-flex justify-content-center m-0">
+         <div class="col-lg-6 col-12 d-flex justify-content-end pr-lg-4 p-0 mt-1">
+            <div class="border border-primary mutton_box">
+             
+               
+             </div>
+            </div>
+         <div class="col-lg-6 col-12 d-flex justify-content-start pl-lg-4 p-0 mt-1">
+            <div class="border border-primary mutton_box_head">
+            
+               
+             </div>
+            </div>
+         </div>
+         
+        
+         
+         <div class="row d-flex justify-content-center m-0">
+        
+         <div class="col-lg-6 col-12 d-flex justify-content-end pr-lg-4 p-0 mt-1">
+            <div class="border border-primary mutton_box_head">
+            
+               
+             </div>
+            </div>
+             
+              <div class="col-lg-6 col-12 d-flex justify-content-start align-items-end pl-lg-4 p-0 mt-1">
+            <div class="border border-primary mutton_box">
+             
+               
+             </div>
+            </div>
+             
+         </div>
+        
+   
+         
+        </div>
+    </section>
+    
+      <!--    Footer-->
+
+    <div class="continer-fluid Dfooter">
+
+        <div class="col-lg-12 d-flex justify-content-center align-items-center bottom_content p-3">
+
+            <div>
+                <p>©Royal Indian Hotel Private Limited 2019. All Rights Reserved. Powered by Resto-G.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--    Footer-End-->
+
+
+    <!--    on scroll effect of navbar-->
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("logoimage").style.width = "50px";
+                document.getElementById("logoimage").style.height = "50px";
+                document.getElementById("navbar_color").style.backgroundColor = "rgba(25, 5,1, 1)";
+                //                document.getElementById("dropdown_menu").style.backgroundColor = "rgba(25, 5,1, 1)";
+                document.getElementById("logo_heading").style.opacity = "0";
+            } else {
+                document.getElementById("logoimage").style.width = "125px";
+                document.getElementById("logoimage").style.height = "136px";
+                document.getElementById("navbar_color").style.backgroundColor = "rgba(25, 5,1, 0.0)";
+                //                document.getElementById("dropdown_menu").style.backgroundColor = "rgba(25, 5,1, 0.32)";
+                document.getElementById("logo_heading").style.opacity = "1";
+
+            }
+        }
+    </script>
+    <!--    on scroll effect of navbar End-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

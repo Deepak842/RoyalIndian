@@ -1,0 +1,12 @@
+.contactus_container1 {
+    height: 100vh;
+    background: grey;
+}
+
+.contactus_container3 {
+    min-height:280px;
+}
+.contact_contact p {
+    line-height: 0.5;
+}
+

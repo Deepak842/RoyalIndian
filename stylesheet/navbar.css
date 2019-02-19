@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family: BigNoodleTitling;
+    src: url(../fonts/big_noodle_titling.ttf);
+}
+@font-face {
+    font-family: Roman;
+    src: url(../fonts/Times-New-Roman.ttf);
+}
+/*Navbar-Style*/
+#navbar_color {
+    background-color: rgba(25, 5, 1, 0.0);
+}
+
+.navbar #dropdown_menu {
+    background: black;
+}
+
+.navbar-brand {
+    display: none;
+    color: #fff !important;
+    height: 30px;
+    width: 30px;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.navbar-nav {
+    width: 58%;
+}
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+    width: 100%;
+/*         background-color: rgba(25, 5, 1, 0.5);*/
+}
+
+}
+.navbar-nav a {
+    font-family: Roboto-Regular;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white !important;
+}
+
+#logoimage {
+    height: 136px;
+    width: 125px;
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    transition: 1s;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+        margin-right: 16px;
+    margin-left: 20px;
+}
+
+#logo_heading {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    font-family: BigNoodleTitling;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 126px;
+    opacity: 1;
+
+}
+.dropdown-menu {
+    top: 58%;
+    left: 29%;
+    width: 100px;   
+    min-width: 100px;
+    padding: 15px 5px;
+    background: white;
+}
+.dropdown-item {
+    padding: 0px;
+    font-size: 11px !important;
+   
+}
+.dropdown-item:hover {
+    background: none;
+}
+#dropdown_item {
+    color: #3d1c15 !important;
+}
+.nav_item_drop {
+    padding: 0px;
+}
+@media screen and (max-width: 991px) {
+    .navbar-brand {
+        display: inline-block;
+        margin: 0px;
+    }
+
+    #logoimage {
+        display: none;
+    }
+
+    .navbar_color {
+        background-color: rgba(25, 5, 1, 0.72);
+    }
+}
+
+/*Navbar-Style-End*/

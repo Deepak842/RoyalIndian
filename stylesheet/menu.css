@@ -1,0 +1,67 @@
+body {
+/*
+     background-image: url(../images/pattern-wallpaper-1024x640.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+*/
+    background: #3d1c15;
+}
+.container_home {
+   padding-top: 18%;
+    padding-bottom: 2%;
+}
+@media screen and (max-width: 768px) {
+#menu_home {
+height: auto;
+}
+}
+
+/*
+.excl_cols ul li {
+list-style-type: none;
+}
+*/
+.menu_heading {
+font-size: 60px;
+font-family: Gabriola;
+}
+
+        table td {
+            padding: 0px !important;
+        }
+        .menu_row {
+            line-height: 1 !important;
+        }
+.menu_items {
+font-family: Gabriola;
+font-size: 30px;
+/*line-height: 1;*/
+
+}
+.menu_price {
+font-size: 20px;
+/*margin-right: 5px;*/
+}
+
+.menu_heading {
+    font-size: 60px;
+    font-family: Gabriola;
+}
+
+.menu_items {
+    font-family: 30px;
+    line-height: 1;
+    
+}
+.menu_price {
+    font-size: 24px;
+    margin-right: 5px;
+}
+.excl_cols_left {
+    background-image: url(../images/Artboard%202.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid grey;
+}

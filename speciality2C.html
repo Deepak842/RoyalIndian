@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to Royal Indian Hotel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootsratp-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--MY CSS-->
+    <link rel="stylesheet" href="stylesheet/keneffect.css">
+    <link rel="stylesheet" href="stylesheet/navbar.css">
+    <link rel="stylesheet" href="stylesheet/footer.css">
+    <link rel="stylesheet" href="stylesheet/speciality.css">
+    <link rel="stylesheet" href="stylesheet/common.css">
+    
+</head>
+
+<body>
+    <!--                            Navbar-->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navbar_color">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler  navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav align-items-center justify-content-around">
+                    <a class="nav-item nav-link" href="about.html">About
+                        
+                    </a>
+                    <a class="nav-item nav-link nav_item_drop" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Speciality
+                    <div class="dropdown-menu">
+                            <a class="dropdown-item" href="speciality1B.html" id="dropdown_item">Royal Biryani</a>
+                            <a class="dropdown-item" href="speciality2C.html" id="dropdown_item">Royal Chaap</a>
+                        </div>
+                    </a>
+                    <a class="nav-item nav-link" href="menu.html">Menu</a>
+                    <a class="nav-item nav-link" href="index.html" id="logoimage"><span id="logo_heading">Royal Indian Hotel</span></a>
+                    <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+                    <a class="nav-item nav-link" href="event.html">Events</a>
+                    <a class="nav-item nav-link" href="contactus.html" tabindex="-1" aria-disabled="true">Contacts</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--                  Navbar-End-->
+
+    <section id="specialityB_container1">
+        <div class="container-fluid specialityB_container1 d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center royal_head_roman">Royal Chaap</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="specialityB_container2">
+     <div class="container specialityB_container2">
+        <div class="row p-lg-5 p-1 d-flex justify-content-center">
+         <div class="col-lg-10 p-lg-5 p-1">
+            <h2 class="text-center mb-lg-5 mb-1 royal_pristina">Chaap: Traditionalist to the core</h2>
+             <p class="royal_gabriola">The speciality of the house is the Royal mutton chap. Beaten pieces of meat are marinated in their own special spices and then shallow fried in oil on an iron tawa. If tongues had ears, one could listen to the majestic aloofness of Darbari Kanada on a plate of Royal's biryani, continuously emphasizing on preserving its pristine culture. Along with Biryani came the famous Chaap, and the jugalbandi Royal played out with this duo became a legend around the city and beyond. </p>
+            </div>
+         </div>
+        </div>
+    </section>
+    
+    
+    <section id="specialityB_container4">
+     <div class="container-fluid specialityB_container4">
+        
+        </div>
+    </section>
+    
+    <section id="specialityB_container5">
+     <div class="container specialityB_container5 p-lg-5 p-1">
+        <div class="row d-flex justify-content-center">
+         <div class="col-lg-6 col-12 d-flex justify-content-center">
+            <div class="col-lg-8 text-center  mutton_box_head">
+             <div class="col-12 border border-primary mutton_box"></div>
+                <h2 class="royal_pristina m-1">Mutton Chaap</h2>
+             <p class="royal_gabriola">Royal Chicken Chaap: &#8377;155.00</p>
+             </div>
+            </div>
+         <div class="col-lg-6 col-12 d-flex justify-content-center">
+            <div class="col-lg-8 text-center mutton_box_head">
+             <div class="col-12 border border-primary mutton_box"></div>
+                <h2 class="royal_pristina m-1">Chicken Chaap</h2>
+             <p class="royal_gabriola">Royal Chicken Chaap: &#8377;160.00</p>
+             </div>
+            </div>
+         </div>
+        </div>
+    </section>
+    
+    
+      <!--    Footer-->
+
+    <div class="continer-fluid Dfooter">
+
+        <div class="col-lg-12 d-flex justify-content-center align-items-center bottom_content p-3">
+
+            <div>
+                <p>©Royal Indian Hotel Private Limited 2019. All Rights Reserved. Powered by Resto-G.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--    Footer-End-->
+
+
+    <!--    on scroll effect of navbar-->
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("logoimage").style.width = "50px";
+                document.getElementById("logoimage").style.height = "50px";
+                document.getElementById("navbar_color").style.backgroundColor = "rgba(25, 5,1, 1)";
+                //                document.getElementById("dropdown_menu").style.backgroundColor = "rgba(25, 5,1, 1)";
+                document.getElementById("logo_heading").style.opacity = "0";
+            } else {
+                document.getElementById("logoimage").style.width = "125px";
+                document.getElementById("logoimage").style.height = "136px";
+                document.getElementById("navbar_color").style.backgroundColor = "rgba(25, 5,1, 0.0)";
+                //                document.getElementById("dropdown_menu").style.backgroundColor = "rgba(25, 5,1, 0.32)";
+                document.getElementById("logo_heading").style.opacity = "1";
+
+            }
+        }
+    </script>
+    <!--    on scroll effect of navbar End-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

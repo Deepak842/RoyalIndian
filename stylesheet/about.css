@@ -1,0 +1,21 @@
+.about_container1 {
+    height: 100vh;
+    background: grey;
+}
+.about_container2 {
+    
+}
+
+.about_container3 {
+   height: 280px;
+    background: grey;
+}
+.about_container4, .about_container5, .about_container6, .row .col-lg-4 {
+    min-height: 280px;
+}
+.about_container5 {
+    
+}
+.about_container6 {
+    
+}

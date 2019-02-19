@@ -1,0 +1,229 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/*Font-Family*/
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gabriola;
+    src: url(../fonts/Gabriola.ttf);
+}
+
+@font-face {
+    font-family: BigNoodleTitling;
+    src: url(../fonts/big_noodle_titling.ttf);
+}
+
+@font-face {
+    font-family: Just-Sunday;
+    src: url(../fonts/JustSundayDemo.ttf);
+}
+
+@font-face {
+    font-family: Goudos;
+    src: url(../fonts/GOUDOS.ttf);
+}
+
+@font-face {
+    font-family: Novar;
+    src: url(../fonts/Novar.ttf);
+}
+
+@font-face {
+    font-family: Pristina;
+    src: url(../fonts/Pristina.ttf);
+}
+/*Home-page2*/
+/*************** excellent_restaurant ****************/
+.excellent_restaurant {
+   
+    min-height: 350px;
+    background-color: white;
+}
+
+.excl_cols {
+    background-color: white;
+    min-height: 350px;
+
+}
+
+/*
+.excl_cols_left {
+    background-image: url(../images/Artboard%202.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*/
+
+.excl_cols_right {
+    color: #3d1c15;
+}
+
+.excl_rest_head {
+    font-family: Gabriola;
+/*
+    margin-bottom: -10px;
+    margin-top: 10px;
+*/
+    font-size: 37px;
+    line-height: 1;
+}
+
+.heart_of_city {
+    font-family: Just-Sunday;
+    font-size: 84px;
+    margin-top: -36px;
+    margin-bottom: 14px;
+    line-height: 1;
+}
+
+.exl_right_logo {
+    margin-bottom: 20px;
+    width: 117px;
+    height: 13px;
+}
+
+.excl_cols_right p {
+    font-family: Gabriola;
+    font-size: 24px;
+    line-height: 1;
+    text-align: left;
+}
+
+.read_more_right {
+    margin-bottom: 15px;
+}
+.left_image {
+    background-image: url("../images/Artboard%202.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.right_image {
+    background-image: url("../images/Artboard%202%20copy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*Home-Page2-End*/
+
+/*Home-Page3*/
+/*delicius als always*/
+
+.read_more {
+    display: inline-block;
+    padding: 0px 7px;
+    font-size: 24px;
+    font-family: Gabriola;
+    color: #3d1c15;
+    border: 1px solid #3d1c15;
+/*
+    margin-top: 20px;
+    margin-bottom: 20px;
+*/
+}
+
+/*Home-Page3-End*/
+
+/*Home-page4*/
+/*Royal special*/
+.Droyal {
+    height: auto;
+    background: #f3eeed;
+
+}
+
+.Droyalheadrow {
+   
+
+}
+
+.Droyalhead {
+    width: 474px;
+    font-family: Gabriola;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #3d1c15;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.Droyalspecial {
+    margin-top: 10px;
+}
+
+.Droyalinner {
+    border: 2px solid #3d1c15;
+    width: 200px;
+    height: 200px;
+}
+
+.Dspecial1 {
+    margin-right: 100px;
+    margin-left: 65px;
+    padding-top: 16px;
+}
+
+.Dspecial2 {
+    margin-right: 100px;
+    padding-top: 16px;
+}
+
+.Dspecial3 {
+    margin-right: 0px;
+    padding-top: 16px;
+}
+
+.Dmenurow {
+    height: 30vh;
+}
+
+.Dmenu {
+    border: 1px solid #3d1c15;
+    font-size: 28px;
+    color: #3d1c15;
+    width: 128px;
+    height: 40px;
+    font-family: Gabriola;
+
+}
+
+/*Home-page4-End*/
+
+.dropdown-menu {
+    background: #3d1c15;
+}
+
+.dropdown-item:hover {
+    background: #4c2219;
+}
+
+.contactus_main {
+    background: #3d1c15 !important;
+}
+
+.about_director {
+    background: #495057;
+}
+
+.director_head {
+    color: #9c5546;
+    font-weight: 900;
+    margin-bottom: 20px !important;
+    font-size: 35px !important;
+}
+
+.director_para {
+    color: #f8f9fa;
+    font-weight: 600;
+    line-height: 1;
+}
